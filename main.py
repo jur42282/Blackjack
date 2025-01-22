@@ -38,7 +38,7 @@ def main():
     try:
         p_count = int(input())
     except ValueError:
-        print("Zadej číslo PYČO!")
+        print("Zadej číslo")
         return
     if p_count < 1 or p_count > 6:
         print("Zadej číslo mezi 1 a 6")
